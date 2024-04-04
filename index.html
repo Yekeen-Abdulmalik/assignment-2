@@ -3,58 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment part 1</title>
+    <title>Assignment 2</title>
 </head>
-<body style="text-align: center;">
-    <!--This is Question One-->
-    <h1>My First Webpage</h1>
-    <hr style="color: blue; height: 2px;">
-    <!--This is question two-->
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dolor id minima volup
-        tatum laborum, ab odit sapiente rerum sequi unde porro harum magnam odio
-         consectetur quasi praesentium beatae ratione iste?
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dolor id minima volup
-         tatum laborum, ab odit sapiente rerum sequi unde porro harum magnam odio
-          consectetur quasi praesentium beatae rat
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dolor id minima volup
-          tatum laborum, ab odit sapiente rerum sequi unde porro harum magnam odio
-           consectetur quasi praesentium beatae rat
-           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore dolor id minima volup
-           tatum laborum, ab odit sapiente rerum sequi unde porro harum magnam odio
-            consectetur quasi praesentium beatae rat</p>
-            <hr style="color: blue; height: 2px;">
-            <!--This is question three-->
-            <ol type="A">
-                <li>Arsenal</li>
-                <li>Liverpool</li>
-                <li>Man City</li>
-                <li>Tottenham</li>
-                <li>Aston Villa</li>
-                <li>Man United</li>
-                <li>Newcastle</li>
-                <li>Brentford</li>
-                <li>Fulham</li>
-                <li>Chelsea</li>
-            </ol>
-            <hr style="color: blue; height: 2px;">
-            <!--This is question four-->
-            <ul>
-                <li>England</li>
-                <li>Spain
-                    <ul>
-                        <li>Real Madrid</li>
-                        <li>Barcelona</li>
-                    </ul>
-                </li>
-                <li>Italy</li>
-            </ul>
-            <hr style="color: blue; height: 2px;">
-            <!--This is Question One-->
-            <!--This is question seven-->
-            <a href="www.facebook.com">Go to Home</a>
+<body>
+    <h1>Welcome to my Webpage</h1>
+    <ul>
+      <li><a href="about.html">Take me to About us Page</a></li>
+      <li><a href="contact.html">Take me to Contact usPage</a></li>
+      <li><a href="blog.html">Take me to Blog Page</a></li>
+    </ul>
+    <h2>Fill in your Details</h2>
 
-
-
-            
+    <form action="get" method="post">
+    <label for="firstname">Firstname:</label> 
+    <input type="text" name="firstname" id="firstname" ><br><br>
+    <label for="lastname">Lastname:</label>
+    <input type="text" name="lastname" id="lastname"> <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email"> <br><br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required> <br><br>
+    <label for="gender">Gender</label> <br><br>
+    <input type="radio" name="name" id="name">Male <br>
+    <input type="radio" name="name" id="name">Female <br>
+    <input type="radio" name="name" id="name">Rather not say <br><br>
+    <label for="favorite foods">Favorite Foods</label> <br><br>
+    <input type="checkbox" name="" id=""> Beans <br>
+    <input type="checkbox" name="" id=""> Rice  <br> 
+    <input type="checkbox" name="" id=""> Spaghetti  <br>
+    <input type="checkbox" name="" id=""> Soup <br>
+    <input type="checkbox" name="" id=""> Pizza <br><br>
+    <label for="certificate">Certificate</label> <br>
+    <select name="certificate" id=""> 
+        <option value="fslc">FSLC</option>
+        <option value="fslc">O'level</option>
+        <option value="fslc">BSC</option>
+    </select>
+    <br><br>
+    <label for="phone">Phone Number</label>
+    <input type="tel" name="number" id="number"> <br><br>
+    <textarea name="text" id="text" cols="30" rows="10">Tell us about yourself</textarea> <br>
+    <input type="submit" name="submit" id="submit">
+    </form>
+       
+    <h2>Table 1</h2>
+    <table border="2">
+        <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Abdulmalik</td>
+            <td>abd@gmail.com</td>
+            <td>Abdulmalik</td>
+            <td>20</td>
+            <td>Male</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Ronaldo</td>
+            <td>ronald@gmail.com</td>
+            <td>Ronaldo</td>
+            <td>25</td>
+            <td>Male</td>
+            <td>Portugal</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Henry</td>
+            <td>henry14@gmail.com</td>
+            <td>Henry14</td>
+            <td>26</td>
+            <td>Male</td>
+            <td>France</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Odegaard</td>
+            <td>odeg10@gmail.com</td>
+            <td>Odegaard10</td>
+            <td>24</td>
+            <td>Male</td>
+            <td>Norway</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Miedema</td>
+            <td>oidem11@gmail.com</td>
+            <td>Miedem</td>
+            <td>25</td>
+            <td>Female</td>
+            <td>Netherlands</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>Kerr</td>
+            <td>ker123@gmail.com</td>
+            <td>Kerr10</td>
+            <td>25</td>
+            <td>Female</td>
+            <td>England</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>NewSchool</td>
+            <td>newsch123@gmail.com</td>
+            <td>Newschool10</td>
+            <td>25</td>
+            <td>Male</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Abdullahi</td>
+            <td>abdll@gmail.com</td>
+            <td>Abdull123</td>
+            <td>20</td>
+            <td>Male</td>
+            <td>Saudi Arabia</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Mazeed</td>
+            <td>mazeed1@gmail.com</td>
+            <td>Mazeed10</td>
+            <td>21</td>
+            <td>Male</td>
+            <td>Nigeria</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>Laura</td>
+            <td>laura1234@gmail.com</td>
+            <td>Laura20</td>
+            <td>22</td>
+            <td>Femaale</td>
+            <td>Nigeria</td>
+        </tr>
+       
+    </table>
+    
 </body>
 </html>
